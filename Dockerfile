@@ -13,7 +13,6 @@ COPY grobro/requirements.txt ./requirements.txt
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-WORKDIR /app/grobro
 COPY grobro/ /app/grobro/
 COPY run.sh /
 RUN chmod a+x /run.sh

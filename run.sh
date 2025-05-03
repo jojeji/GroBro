@@ -34,4 +34,4 @@ export LOG_LEVEL
 export DUMP_DIR
 export DUMP_MESSAGES
 
-exec python3 ha_bridge.py
+exec python3 -m grobro.ha_bridge
